@@ -1,3 +1,4 @@
+
 function checkprime(number){
   let count=0;
 	 for(i=1;i<=number;i++) {
@@ -10,11 +11,9 @@ return true;
 }else{
 return false;  
 }
-
 }
- 
-let answer = checkprime(x=12)
 
+let answer = checkprime(x=12)
 if(answer==true){
 console.log(x,"its a Prime Number");
  }else{
